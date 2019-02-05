@@ -1,0 +1,411 @@
+body {
+    font-family: 'Mali', cursive;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: normal;
+}
+h1{
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 strong{
+    color: #617F7A;
+}
+
+h2{
+    color: #617F7A;
+    text-transform: uppercase;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.hero{
+    height: 300px;
+    /*background-image: url(../imagenes/hero.jpg);*/
+    background-color: #9BCCC4;
+    /*background-size: 450px 300px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-image{
+    object-fit: cover;
+}
+
+/* .html-video{
+    max-width:100%;
+    height: auto;
+}
+*/
+
+.album{
+    background: #DBFFF9;
+    padding: 20px;
+}
+
+.travel{
+    border: 1px solid #6C8286;
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.travel-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.travel-city,
+.travel-date,
+.travel-url{
+    margin: 10px 0;
+}
+
+.travel-description{
+    font-size: 20px;
+}
+
+.travel-details{
+    /*width:500px;*/
+    width: 50%;
+}
+
+.travel-imageContainer{
+    /*width:500px;*/
+    width: 50%;
+}
+
+.travel-imageContainer img{
+    max-width: 100%;
+}
+
+.header{
+    background-color: #9BCCC4;
+    color: black;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;  
+}
+
+.header ol li{
+  height: inherit;  
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.animal-list-title{
+    margin-left: 20px;
+}
+
+.animals{
+    margin: 1%;
+    width: 48%;
+    /* margin: 10px;
+    width: 480px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #DBFFF9;
+}
+
+.animal-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animals img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover
+}
+
+.animal-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.animal-description{
+    text-align: left;
+}
+
+.animal-url{
+    color: #B27A63;
+    border: 1px solid ;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: aliceblue;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.form-email input{
+    border-color: lightblue;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('https://img.icons8.com/ultraviolet/40/000000/new-post.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: black;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px 10px;
+}
+
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url('https://img.icons8.com/nolan/40/000000/twitter.png'); 
+}
+
+.social-link.facebook{
+    background-image: url('https://img.icons8.com/nolan/40/000000/facebook.png'); 
+}
+
+.social-link.instagram{
+    background-image: url('https://img.icons8.com/nolan/40/000000/instagram-new.png');
+}
+
+.social-link.github{
+    background-image: url('https://img.icons8.com/nolan/40/000000/github.png');
+}
+
+.footer{
+    background-color: #9BCCC4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding: 0 1em;
+    }
+
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: block;
+    }
+
+    .header ol li{
+        height: 50px;
+    }
+
+    .header a{
+        justify-content: center;
+    }
+
+    .header .logo{
+        text-align: center;
+    }
+
+    .travel{
+        display: block;
+    }
+
+    .travel-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+
+    .travel-details{
+        width: auto;
+        /* font-size: 16px; */
+    }
+
+    .travel-city,
+    .travel-date,
+    .travel-url{
+        margin: .3em 0;
+    }
+
+    .travel-title{
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+
+    .travel-city{
+        font-size: .7em;
+    }
+
+    .travel-url{
+        font-size: 1em;
+    }
+
+    .travel-date{
+        font-size: 1em;
+    }
+
+    .travel-description{
+        font-size: .8em;
+    }
+
+    .animals{
+        width: auto;
+        flex-shrink: initial;
+    }
+
+    .animals img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 1.5em;
+    }
+    .travel-details{
+        font-size: 12px;
+    }
+
+    .animal-detail{
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        display: block;
+        text-align: center;
+    }
+
+    .form-email button{
+        margin: 1em auto;
+    }
+
+    .form-email h3{
+        margin-top: 0;
+    }
+
+    .footer{
+        display: block;
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 1.2em;
+    }
+
+    .hero{
+        padding: 2em 1em;
+    }
+}
